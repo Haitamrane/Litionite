@@ -87,6 +87,10 @@ header h3 a {
     color: #494949;
 }
 
+.div_second {
+    position: relative;
+}
+
 .div_second img {
     width: 100vw;
     margin-top: 30px;
@@ -125,11 +129,6 @@ header h3 a {
 
 .span_ul {
     font-weight: 200;
-}
-
-.div_button--plus {
-    display: flex;
-    justify-content: flex-end;
 }
 
 .div_tree img {
