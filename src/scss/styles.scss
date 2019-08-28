@@ -41,7 +41,8 @@ header {
         font-size: var(--font-size);
         font-weight: 500;
         cursor: pointer;
-    }
+        box-shadow: 0px 1px 3px #aaa;
+        }
 }
 
 .div_first {
@@ -84,7 +85,7 @@ header {
     font-family: var(--font);
 
     &:nth-child(2) {
-        margin: 0 39px 0 43px;
+        margin: 0 31px 0 35px;
     }
 
     h1 {
@@ -119,11 +120,10 @@ header {
             font-family: var(--font);
             font-size: var(--font-size);
             color: #494949;
-            margin-top: 8px;
+            margin-top: 10px;
         }
     }
 }
-
 
 .div_tree {
 
@@ -147,7 +147,7 @@ header {
             font-family: var(--font);
             color: #494949;
             font-size: var(--font-size);
-            margin: 8px 0 0 14px;
+            margin: 10px 0 0 14px;
         }
     }
 }
@@ -173,7 +173,7 @@ header {
         margin: 0 14px 0 14px;
         color: #494949;
         margin-top: 15px;
-        line-height: 120%;
+        line-height: 140%;
     }
 
     .product {
@@ -186,12 +186,14 @@ header {
         text-decoration: none;
         font-size: var(--font-size);
         font-family: var(--font);
-        color: white;
-        background: var(--background);
+        color: var(--background);
+        background: white;
         padding: 5px 15px 5px 15px;
+        border: 0.5px solid var(--background);
         border-radius: 4px;
         margin-left: 14px;
-    }
+        opacity: 0.7;
+        }
 }
 
 .div_five {
@@ -216,7 +218,7 @@ header {
             font-family: var(--font);
             color: #494949;
             font-size: var(--font-size);
-            margin: 8px 0 0 14px;
+            margin: 10px 0 0 14px;
         }
     }
 }
@@ -241,7 +243,7 @@ header {
         font-size: var(--font-size);
         margin: 0 14px 0 14px;
         color: #494949;
-        line-height: 130%;
+        line-height: 140%;
         margin-top: 15px;
     }
 
@@ -257,13 +259,14 @@ header {
             background: var(--background);
             padding: 5px 15px 5px 15px;
             border-radius: 4px;
+            box-shadow: 0px 1px 3px #aaa;
         }
     }
 }
 
 footer {
     margin-top: 20px;
-    height: 55px;
+    height: 75px;
     background: #F2F2F2;
 
     ul {
@@ -278,16 +281,20 @@ footer {
             }
 
             a img {
-                width: 20px;
+                width: 25px;
             }
         }
     }
 
     p {
-        font-size: 6px;
+        font-size: 8px;
+        line-height: 130%;
         text-align: center;
         margin-top: 12px;
         font-family: var(--font);
         color: #494949;
     }
 }
+
+
+@import '/scss/responsive.scss';

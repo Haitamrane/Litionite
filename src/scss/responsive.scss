@@ -1,0 +1,76 @@
+@media (min-width: 748px) {
+
+  .div_first {
+
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 12px;
+    }
+  }
+
+  .div_info_in {
+    h1 {
+      font-size: 24px;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
+  }
+
+  :root {
+    --font-size: 16px;
+    --font-size-h1: 20px;
+  }
+
+  .div_six {
+    margin-bottom: 50px;
+  }
+
+  footer {
+    ul {
+      li {
+        a img {
+          width: 40px;
+      }
+    }
+  }
+
+    p {
+      margin-top: 8px;
+      font-size: 10px;
+    }
+  }
+
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+
+ .div_first {
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  img {
+    width: 60vw;
+    margin: 15px 155px 0 155px;
+  }
+}
+
+
+
+
+
+}
